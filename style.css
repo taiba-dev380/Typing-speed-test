@@ -15,6 +15,7 @@ body{
 body, .quote-input{
     font-family: "Roboto", sans-serif;
 }
+
 .container {
     /* background-color: #a58630; */
     /* background-color: #6B8A7A; */
@@ -23,6 +24,14 @@ body, .quote-input{
     border-radius: 10px;
     width: 700px;
     max-width: 90%;
+}
+.container h1{
+    color: #254336;
+    font-size: 32px;
+    top: 4px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #315c49;
+    font-weight: 600;
 }
 .timer {
     position: absolute;
@@ -33,6 +42,7 @@ body, .quote-input{
     font-weight: 700;
 }
 .quote-display {
+    margin-top: 1rem;
     margin-bottom: 2rem;
     margin-left: calc(1rem + 2px);
     margin-right: calc(1rem + 2px);
